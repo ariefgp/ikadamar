@@ -1,20 +1,30 @@
-import React from 'react'
+import React from 'react';
+import Image from "next/image";
+import Link from 'next/link';
 
 function Invitation() {
   return (
     <div className="flex flex-col text-center">
-        <div className="basis-full bg-[#DDE9FB]">
+        <div className="basis-full bg-[#DDE9FB] px-48">
             <div className='flex flex-row min-h-[500px] items-center'>
-                <div className="basis-1/2">
-                    <div className="text-left ml-32 text-4xl">Sugeng Rawuh</div>
-                    <div className="text-left ml-32 mt-6 text-6xl font-semibold tracking-widest">Warga <br /> IKADAMAR</div>
+                <div className="basis-2/5">
+                    <div className="text-left text-4xl">Sugeng Rawuh</div>
+                    <div className="text-left mt-6 text-6xl font-semibold tracking-widest">Warga <br /> IKADAMAR</div>
                 </div>
-                <div className="basis-1/2"></div>
+                <div className="basis-3/5">
+                    <Image 
+                        src="/main_thumbnail.png" 
+                        alt="Main Image Ikadamar"
+                        height="800"
+                        width="1200"
+                        className='-mb-12'
+                    />
+                </div>
             </div>
             
         </div>
-        <div className="basis-full">
-            <div className="mt-16">
+        <div className="basis-full px-48">
+            <div className="mt-32">
                 <div>Kami mengundang</div>
                 <div>Bapak, Ibu dan seluruh keluarga besar IKADAMAR ke acara</div>
             </div>
@@ -48,18 +58,18 @@ function Invitation() {
                 </div>
             </div>
         </div>
-        <div className="basis-full bg-[#E8EBF0] mt-12 p-12">
+        <div className="basis-full bg-[#E8EBF0] mt-12 py-12 px-48">
             <div className="">Hitung Mundur</div>
             <div>Countdown</div>
         </div>
-        <div className="basis-full">
+        <div className="basis-full px-48">
             <div className="mt-16">Di reuni keluarga kali ini, apakah berkenan hadir dengan keluarga?</div>
-            <div>
-                <button>Ya, bisa hadir</button>
-                <button>Belum bisa hadir</button>
+            <div className="mt-8">
+                <Link href="#" className="py-2 px-6 bg-[#8EB1E6] text-white shadow-xl m-5 rounded-md">Ya, bisa hadir</Link>
+                <Link href="#" className="py-2 px-6 text-[#8EB1E5] shadow-xl m-5 border border-[#E8EBF0] rounded-md">Belum bisa hadir</Link>
             </div>
         </div>
-        <div className="basis-full my-16 p-5 bg-[#C7D1E1]">
+        <div className="basis-full my-10 py-8 bg-[#C7D1E1] text-white px-48">
             Copyright @ariefgp. 2023
         </div>
     </div>
