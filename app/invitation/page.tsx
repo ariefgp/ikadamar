@@ -1,10 +1,79 @@
+'use client'
+
 import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
+import { useEffect, useState } from "react";
 
 function Invitation() {
+    const Countdown = () => {
+        const [countdownDate, setCountdownDate] = useState(
+          new Date("2023-04-30T09:00:00").getTime()
+        );
+        const [state, setState] = useState({
+          days: "0",
+          hours: "0",
+          minutes: "0",
+          seconds: "0"
+        });
+    
+        useEffect(() => {
+          setInterval(() => setNewTime(), 1000);
+        }, []);
+    
+        const setNewTime = () => {
+          if (countdownDate) {
+            const currentTime = new Date().getTime();
+    
+            const distanceToDate = countdownDate - currentTime;
+    
+            let days: string | number = Math.floor(distanceToDate / (1000 * 60 * 60 * 24));
+            let hours: string | number = Math.floor(
+              (distanceToDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+            let minutes: string | number = Math.floor(
+              (distanceToDate % (1000 * 60 * 60)) / (1000 * 60)
+            );
+            let seconds: string | number = Math.floor((distanceToDate % (1000 * 60)) / 1000);
+    
+            const numbersToAddZeroTo = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    
+            days = `${days}`;
+            if (numbersToAddZeroTo.includes(hours)) {
+              hours = `0${hours}`;
+            } else if (numbersToAddZeroTo.includes(minutes)) {
+              minutes = `0${minutes}`;
+            } else if (numbersToAddZeroTo.includes(seconds)) {
+              seconds = `0${seconds}`;
+            }
+    
+            setState({ days: days, hours: hours as string, minutes: minutes as string, seconds: seconds as string });
+          }
+        };
+    
+        return (
+          <div className="flex flex-row justify-center gap-5">
+            <div className="flex-initial w-20 py-6 rounded-lg bg-white">
+                <div className='font-bold'>{state.days || "0"}</div>
+                <div className="text-xs">Hari</div>
+            </div>
+            <div className="flex-initial w-20 py-6 rounded-lg bg-white">
+                <div className='font-bold'>{state.hours || "00"}</div>
+                <div className="text-xs">Jam</div>
+            </div>
+            <div className="flex-initial w-20 py-6 rounded-lg bg-white">
+                <div className='font-bold'>{state.minutes || "00"}</div>
+                <div className="text-xs">Menit</div>
+            </div>
+            <div className="flex-initial w-20 py-6 rounded-lg bg-white">
+                <div className='font-bold'>{state.seconds || "00"}</div>
+                <div className="text-xs">Detik</div>
+            </div>
+          </div>
+        );
+      };
   return (
-    <div className="flex flex-col text-center">
+    <div className="flex flex-col text-center bg-[#F8F8F8]">
         <div className="basis-full bg-[#DDE9FB] px-48">
             <div className='flex flex-row min-h-[500px] items-center'>
                 <div className="basis-2/5">
@@ -59,17 +128,17 @@ function Invitation() {
             </div>
         </div>
         <div className="basis-full bg-[#E8EBF0] mt-12 py-12 px-48">
-            <div className="">Hitung Mundur</div>
-            <div>Countdown</div>
+            <div className="mb-12 font-semibold text-[#5F5B5B] text-2xl">Hitung Mundur</div>
+            <div><Countdown /></div>
         </div>
         <div className="basis-full px-48">
             <div className="mt-16">Di reuni keluarga kali ini, apakah berkenan hadir dengan keluarga?</div>
-            <div className="mt-8">
+            <div className="my-8">
                 <Link href="#" className="py-2 px-6 bg-[#8EB1E6] text-white shadow-xl m-5 rounded-md">Ya, bisa hadir</Link>
                 <Link href="#" className="py-2 px-6 text-[#8EB1E5] shadow-xl m-5 border border-[#E8EBF0] rounded-md">Belum bisa hadir</Link>
             </div>
         </div>
-        <div className="basis-full my-10 py-8 bg-[#C7D1E1] text-white px-48">
+        <div className="basis-full mt-10 py-8 bg-[#C7D1E1] text-white px-48">
             Copyright @ariefgp. 2023
         </div>
     </div>
