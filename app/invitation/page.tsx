@@ -73,7 +73,7 @@ function Invitation() {
         );
       };
   return (
-    <div className="flex flex-col text-center bg-[#F8F8F8] text-sm md:text-base">
+    <div className="flex flex-col text-center bg-[#f8f9fa] text-sm md:text-base">
         <div className="basis-full bg-[#DDE9FB] md:py-8 lg:py-10 px-5 md:px-16 lg:px-48">
             <div className='flex flex-col-reverse md:flex-row items-center'>
                 <div className="basis-full md:basis-2/5 pt-10 pb-12 md:pb-0 md:pt-0">
@@ -141,7 +141,7 @@ function Invitation() {
                   <Link href="#" className="py-2 px-6 bg-[#8EB1E6] text-white shadow-xl m-5 rounded-md">Ya, bisa hadir</Link>
                 </div>
                 <div className="basis-full md:basis-1/2 mt-8 md:mt-0 md:text-left">
-                  <Link href="#" className="py-2 px-6 text-[#8EB1E5] shadow-xl m-5 border border-[#E8EBF0] rounded-md">Belum bisa hadir</Link>
+                  <Link href="#" className="py-2 px-6 text-[#8EB1E6] shadow-xl m-5 border border-[#C7D1E1] rounded-md">Belum bisa hadir</Link>
                 </div>
               </div>
             </div>
