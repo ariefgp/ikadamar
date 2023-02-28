@@ -77,8 +77,8 @@ function Invitation() {
         <div className="basis-full bg-[#DDE9FB] md:px-20 lg:px-48">
             <div className='flex flex-col-reverse md:flex-row items-center'>
                 <div className="basis-full md:basis-2/5 pt-20 pb-12 md:pb-0 md:pt-0">
-                    <div className="text-center md:text-left text-4xl">Sugeng Rawuh</div>
-                    <div className="text-center md:text-left mt-6 text-6xl font-semibold tracking-widest">Warga <br /> IKADAMAR</div>
+                    <div className="text-center md:text-left text-3xl md:text-4xl">Sugeng Rawuh</div>
+                    <div className="text-center md:text-left mt-6 text-5xl md:text-6xl font-semibold tracking-widest">Warga <br /> IKADAMAR</div>
                 </div>
                 <div className="basis-full md:basis-3/5">
                   <div className="w-3/5 m-auto md:w-full pt-10 md:pt-0">
@@ -99,9 +99,9 @@ function Invitation() {
                 <div>Kami mengundang</div>
                 <div>Bapak, Ibu dan seluruh keluarga besar IKADAMAR ke acara</div>
             </div>
-            <div className="font-dancing text-7xl font-bold text-[#6A8DC2] mt-8">
-                <div className="ml-16">Reuni</div>
-                <div className="mr-16 -mt-4">Keluarga</div>
+            <div className="font-dancing text-5xl md:text-7xl font-bold text-[#6A8DC2] mt-8">
+                <div className="ml-10 md:ml-16">Reuni</div>
+                <div className="mr-10 md:mr-16 -mt-4">Keluarga</div>
             </div>
             <div className="mt-8">
                 <div>yang akan dilaksanakan pada</div>
@@ -146,7 +146,7 @@ function Invitation() {
               </div>
             </div>
         </div>
-        <div className="basis-full pt-10 py-8 bg-[#C7D1E1] text-white md:px-20 lg:px-48">
+        <div className="basis-full py-3 md:py-8 bg-[#C7D1E1] text-white md:px-20 lg:px-48">
             Copyright @ariefgp. 2023
         </div>
     </div>
