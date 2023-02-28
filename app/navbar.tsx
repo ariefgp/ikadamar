@@ -3,7 +3,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-   <header className="hidden md:flex md:flex-row-reverse gap-16 py-16 px-48 font-bold bg-[#DDE9FB] text-[#383333]"> 
+   <header className="hidden md:flex md:flex-row-reverse gap-8 lg:gap-16 py-10 px-20 lg:py-16 lg:px-48 font-bold bg-[#DDE9FB] text-[#383333]"> 
     <div>
         <Link href="/artikel" className='hover:text-[#7791BA]'> Artikel </Link>
     </div>
