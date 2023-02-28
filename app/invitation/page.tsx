@@ -73,10 +73,10 @@ function Invitation() {
         );
       };
   return (
-    <div className="flex flex-col text-center bg-[#F8F8F8]">
-        <div className="basis-full bg-[#DDE9FB] px-5 md:px-20 lg:px-48">
+    <div className="flex flex-col text-center bg-[#F8F8F8] text-sm md:text-base">
+        <div className="basis-full bg-[#DDE9FB] md:py-8 lg:py-10 px-5 md:px-16 lg:px-48">
             <div className='flex flex-col-reverse md:flex-row items-center'>
-                <div className="basis-full md:basis-2/5 pt-20 pb-12 md:pb-0 md:pt-0">
+                <div className="basis-full md:basis-2/5 pt-10 pb-12 md:pb-0 md:pt-0">
                     <div className="text-center md:text-left text-3xl md:text-4xl">Sugeng Rawuh</div>
                     <div className="text-center md:text-left mt-6 text-5xl md:text-6xl font-semibold tracking-widest">Warga <br /> IKADAMAR</div>
                 </div>
@@ -87,7 +87,7 @@ function Invitation() {
                           alt="Main Image Ikadamar"
                           height="800"
                           width="1200"
-                          className='-mb-12'
+                          className='md:-mb-14 lg:-mb-20'
                       />
                   </div>
                 </div>
@@ -117,14 +117,14 @@ function Invitation() {
                     <div className='mt-2'>2023</div>
                 </div>
             </div>
-            <div>
-                <div>
+            <div className="flex flex-col">
+                <div className="basis-full">
                     Kediaman Pak Musman dan Bu Dwi Asih
                 </div>
-                <div>
+                <div className="basis-full">
                     Jl Soekarno Hatta Gang Duku No 15 Kelutan, Trenggalek
                 </div>
-                <div>
+                <div className="basis-full">
                     Jawa Timur
                 </div>
             </div>
@@ -146,7 +146,7 @@ function Invitation() {
               </div>
             </div>
         </div>
-        <div className="basis-full px-5 py-3 md:py-8 bg-[#C7D1E1] text-white md:px-20 lg:px-48">
+        <div className="basis-full px-5 py-3 md:py-5 bg-[#C7D1E1] text-white md:px-20 lg:px-48">
             Copyright @ariefgp. 2023
         </div>
     </div>
