@@ -138,10 +138,10 @@ function Invitation() {
             <div className="pt-8 pb-16">
               <div className="flex flex-col md:flex-row gap-x-1">
                 <div className="basis-full md:basis-1/2 md:text-right">
-                  <Link href="#" className="py-2 px-6 bg-[#8EB1E6] text-white shadow-xl m-5 rounded-md">Ya, bisa hadir</Link>
+                  <Link href="https://forms.gle/EjxhW9TfY2kZfgms9" className="py-2 px-6 bg-[#8EB1E6] text-white shadow-xl m-5 rounded-md">Ya, bisa hadir</Link>
                 </div>
                 <div className="basis-full md:basis-1/2 mt-8 md:mt-0 md:text-left">
-                  <Link href="#" className="py-2 px-6 text-[#8EB1E6] shadow-xl m-5 border border-[#C7D1E1] rounded-md">Belum bisa hadir</Link>
+                  <Link href="https://forms.gle/EjxhW9TfY2kZfgms9" className="py-2 px-6 text-[#8EB1E6] shadow-xl m-5 border border-[#C7D1E1] rounded-md">Belum bisa hadir</Link>
                 </div>
               </div>
             </div>
