@@ -11,10 +11,10 @@ function Navbar() {
         <Link href="/keluarga" className='hover:text-[#7791BA]'> Keluarga </Link>
     </div>
     <div>
-        <Link href="/mbah-dasih" className='hover:text-[#7791BA]'> Mbah Dasih </Link>
+        <Link href="/eyang-dasih" className='hover:text-[#7791BA]'> Eyang Dasih </Link>
     </div>
     <div>
-        <Link href="/mbah-daman" className='hover:text-[#7791BA]'> Mbah Daman </Link>
+        <Link href="/eyang-daman" className='hover:text-[#7791BA]'> Eyang Daman </Link>
     </div>
     <div>
         <Link href="/" className='hover:text-[#7791BA]'> Beranda </Link>
