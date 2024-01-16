@@ -122,7 +122,7 @@ function Invitation() {
                     Tiga Dapoer Batavia
                 </div>
                 <div className="basis-full">
-                    Jl. Mastrip, Jepun, Kec. Tulungagung, Kabupaten Tulungagung
+                    Jl. Mastrip No.6, Jepun, Kec. Tulungagung, Kabupaten Tulungagung
                 </div>
                 <div className="basis-full">
                     Jawa Timur
