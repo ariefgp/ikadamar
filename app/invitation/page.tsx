@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 function Invitation() {
     const Countdown = () => {
         const [countdownDate, setCountdownDate] = useState(
-          new Date("2023-04-30T09:00:00").getTime()
+          new Date("2024-04-14T09:00:00").getTime()
         );
         const [state, setState] = useState({
           days: "0",
@@ -111,18 +111,18 @@ function Invitation() {
                     <div>Minggu</div>
                     <div className='mt-2'>09:00</div>
                 </div>
-                <div className="flex-none p-3 font-dosis font-semibold text-4xl">30</div>
+                <div className="flex-none p-3 font-dosis font-semibold text-4xl">14</div>
                 <div className="flex-1 text-left pl-12">
                     <div>April</div>
-                    <div className='mt-2'>2023</div>
+                    <div className='mt-2'>2024</div>
                 </div>
             </div>
             <div className="flex flex-col">
                 <div className="basis-full">
-                    Kediaman Pak Musman dan Bu Dwi Asih
+                    Tiga Dapoer Batavia
                 </div>
                 <div className="basis-full">
-                    Jl Soekarno Hatta Gang Duku No 15 Kelutan, Trenggalek
+                    Jl. Mastrip, Jepun, Kec. Tulungagung, Kabupaten Tulungagung
                 </div>
                 <div className="basis-full">
                     Jawa Timur
