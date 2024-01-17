@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import { useEffect, useState } from "react";
 
-function Invitation() {
+const Invitation = () => {
     const Countdown = () => {
         const [countdownDate, setCountdownDate] = useState(
           new Date("2024-04-14T09:00:00").getTime()

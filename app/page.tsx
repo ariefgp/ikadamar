@@ -1,10 +1,10 @@
 import React from 'react'
 import Invitation from './invitation/page'
 
-function Home() {
+const Home = () => {
   return (
     <Invitation />
   )
 }
 
-export default Home
+export default Home;

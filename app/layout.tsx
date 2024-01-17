@@ -1,11 +1,11 @@
 import '@/styles/globals.css'
 import Navbar from './navbar'
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: {
   children: React.ReactNode
-}) {
+}) => {
   return (
     <html>
       <head />
@@ -16,3 +16,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+export default RootLayout;
