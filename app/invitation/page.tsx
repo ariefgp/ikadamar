@@ -25,7 +25,7 @@ const Invitation = () => {
             <div className="flex flex-row my-8 font-semibold text-[#5F5B5B]">
                 <div className="flex-1 text-right pr-12">
                     <div>Minggu</div>
-                    <div className='mt-2'>09:00</div>
+                    <div className='mt-2'>10:00</div>
                 </div>
                 <div className="flex-none p-3 font-dosis font-semibold text-4xl">14</div>
                 <div className="flex-1 text-left pl-12">
