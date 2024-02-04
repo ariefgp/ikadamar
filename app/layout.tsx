@@ -10,7 +10,6 @@ export default function RootLayout({
     <html>
       <head />
       <body className="text-black  font-default">
-        <Navbar />
         {children}
         </body>
     </html>
