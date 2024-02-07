@@ -5,7 +5,7 @@ const EyangDaman = () => {
     return (
         <>
             <Navbar bgColor="#FFFFFF" />
-            <div className="flex flex-col w-full pt-4 md:pl-44 text-[#5F5B5B]">
+            <div className="flex flex-col w-full pl-none pt-4 lg:pl-44 text-[#5F5B5B]">
                 <div className="basis-full bg-[#DDE9FB] py-12 px-20">
                     <div className="flex flex-col md:flex-row">
                         <div className="basis-full md:basis-1/5">
@@ -14,10 +14,10 @@ const EyangDaman = () => {
                                 alt="Eyang Daman"
                                 height="356"
                                 width="315"
-                                className="md:-ml-40 md:-mt-32 md:min-w-80 md:max-w-none"
+                                className="max-w-[150] m-auto md:max-w-[210px] lg:-ml-40 lg:-mt-32 lg:max-w-xs"
                             />
                         </div>
-                        <div className="basis-full md:basis-4/5">
+                        <div className="basis-full md:basis-4/5 pl-10">
                             <div className="flex flex-col">
                                 <div className="basis-full text-4xl font-semibold">
                                     Daman <br /> Martowisastro
@@ -28,7 +28,7 @@ const EyangDaman = () => {
                                 <div className="basis-full mt-14 text-2xl font-extrabold">
                                     “Hidup yang rukun dengan <br /> sesama, agar damai sejahtera”
                                 </div>
-                                <div className="basis-full mt-6 text-2xl text-right font-extrabold md:pr-24">
+                                <div className="basis-full mt-6 text-2xl text-right font-extrabold md:pr-4 lg:pr-24">
                                     Jadilah orang tapi tetap <br /> sederhana dan ingat selalu <br />“Ojo Dumeh”
                                 </div>
                             </div>
