@@ -7,7 +7,7 @@ const EyangDaman = () => {
             <Navbar bgColor="#FFFFFF" />
             <div className="flex flex-col w-full pl-none pt-4 lg:pl-44 text-[#5F5B5B]">
                 <div className="basis-full bg-[#DDE9FB] py-12 px-20">
-                    <div className="flex flex-col md:flex-row">
+                    <div className="flex flex-col md:flex-row gap-16 md:gap-none">
                         <div className="basis-full md:basis-1/5">
                             <Image
                                 src="/eyang-dasih.png"
@@ -17,18 +17,18 @@ const EyangDaman = () => {
                                 className="max-w-[150] m-auto md:max-w-[210px] lg:-ml-40 lg:-mt-32 lg:max-w-xs"
                             />
                         </div>
-                        <div className="basis-full md:basis-4/5 pl-10">
+                        <div className="basis-full md:basis-4/5 md:pl-10">
                             <div className="flex flex-col">
-                                <div className="basis-full text-4xl font-semibold">
+                                <div className="basis-full text-4xl font-semibold text-center md:text-left">
                                     Dasih <br /> Martowisastro
                                 </div>
-                                <div className="basis-full mt-4 font-normal">
+                                <div className="basis-full mt-4 font-normal text-center md:text-left">
                                     21 Oktober 1912 - 1 Februari 1981
                                 </div>
-                                <div className="basis-full mt-14 text-2xl font-extrabold">
+                                <div className="basis-full mt-14 text-2xl font-extrabold text-center md:text-left">
                                     “Selalu guyup rukun dengan <br /> semua saudara”
                                 </div>
-                                <div className="basis-full mt-6 text-2xl text-right font-extrabold md:pr-4 lg:pr-24">
+                                <div className="basis-full mt-6 text-2xl  text-center md:text-right font-extrabold md:pr-4 lg:pr-24">
                                     “Urip iku kudu sing <br /> gemi nastiti lan ngati-ati”
                                 </div>
                             </div>
