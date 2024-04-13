@@ -36,7 +36,7 @@ const EyangDaman = () => {
                     </div>
                 </div>
                 <div className="basis-full mt-20 px-12 lg:px-none md:pl-12">
-                    <div className="flex flex-col md:flex-row">
+                    <div className="flex flex-col md:flex-row gap-12 md:gap-0">
                         <div className="basis-full md:basis-1/2">
                             <div className="flex flex-col gap-12">
                                 <div className="basis-full">
@@ -75,8 +75,8 @@ const EyangDaman = () => {
                                 <div className="basis-full">
                                     <div className="font-semibold text-2xl">Kondisi Kesehatan</div>
                                     <div className="mt-4 text-justify md:w-3/4">
-                                        <p>Mbah merupakan orang yang sangat jarang sakit, apalagi sakit berat. Namun pada tahun 1972 pada waktu di sawah, tak sengaja kakinya terkena tunggak sampai menjadi tetanus. Dan penyakit itulah yang akhirnya membuat mbah meninggal pada 25 Januari 1972 setelah dirawat di RSUD Trenggalek.</p>
-                                        <p>Di hari yang sama mbah dimakamkan di makam umum desa Karangan, Trenggalek.</p>
+                                        <p>Eyang merupakan orang yang sangat jarang sakit, apalagi sakit berat. Namun pada tahun 1972 pada waktu di sawah, tak sengaja kakinya terkena tunggak sampai menjadi tetanus. Dan penyakit itulah yang akhirnya membuat Eyang meninggal pada 25 Januari 1972 setelah dirawat di RSUD Trenggalek.</p>
+                                        <p>Di hari yang sama Eyang dimakamkan di makam umum desa Karangan, Trenggalek.</p>
                                     </div>
                                 </div>
                             </div>
@@ -86,8 +86,8 @@ const EyangDaman = () => {
                                 <div className="basis-full">
                                     <div className="font-semibold text-2xl">Kebiasaan (Kegemaran)</div>
                                     <div className="mt-4 text-justify md:w-3/4">
-                                        <p>Mbah Daman sangat senang mendengarkan karawitan (klenengan) pada sore hari sembari memasak klobot (kulit jagung) dengan keningar, air kelapa dan gula merah untuk dibuat rokok.</p>
-                                        <p>Pada masa itu, Mbah Daman menggunakan sepeda untuk bepergian kemana-mana, terutama untuk mengajar ke sekolah. Selain mengajar, Si Mbah juga memelihara sapi.</p>
+                                        <p>Eyang Daman sangat senang mendengarkan karawitan (klenengan) pada sore hari sembari memasak klobot (kulit jagung) dengan keningar, air kelapa dan gula merah untuk dibuat rokok.</p>
+                                        <p>Pada masa itu, Eyang Daman menggunakan sepeda untuk bepergian kemana-mana, terutama untuk mengajar ke sekolah. Selain mengajar, Si Eyang juga memelihara sapi.</p>
                                     </div>
                                 </div>
                                 <div className="basis-full">

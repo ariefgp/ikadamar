@@ -35,8 +35,8 @@ const EyangDaman = () => {
                         </div>
                     </div>
                 </div>
-                <div className="basis-full mt-20 md:pl-12">
-                    <div className="flex flex-col md:flex-row">
+                <div className="basis-full mt-20 px-12 lg:px-none md:pl-12">
+                    <div className="flex flex-col md:flex-row gap-12 md:gap-0">
                         <div className="basis-full md:basis-1/2">
                             <div className="flex flex-col gap-12">
                                 <div className="basis-full">
@@ -70,8 +70,8 @@ const EyangDaman = () => {
                                 <div className="basis-full">
                                     <div className="font-semibold text-2xl">Kondisi Kesehatan</div>
                                     <div className="mt-4 text-justify md:w-3/4">
-                                        <p>Mbah Dasih merupakan pribadi yang kuat dan jarang mengeluh. Namun pada suatu hari di tahun 1956, beliau mengalami miskram (pendarahan hebat). Dan setelah itu kondisi kesehatannya menjadi jauh menurun dan sering batuk-batuk.</p>
-                                        <p>Setelahnya si mbah divonis sakit paru-paru dan harus menjalani pengobatan teratur di Santorium Blitar.
+                                        <p>Eyang Dasih merupakan pribadi yang kuat dan jarang mengeluh. Namun pada suatu hari di tahun 1956, beliau mengalami miskram (pendarahan hebat). Dan setelah itu kondisi kesehatannya menjadi jauh menurun dan sering batuk-batuk.</p>
+                                        <p>Setelahnya si Eyang divonis sakit paru-paru dan harus menjalani pengobatan teratur di Santorium Blitar.
                                             Hingga pada 1 Februari 1981, beliau menghembuskan nafas terakhir setelah sebelumnya opname sekitar 3 minggu di RSUD dr. Soetomo (Karangmenjangan)</p>
                                     </div>
                                 </div>
@@ -82,15 +82,15 @@ const EyangDaman = () => {
                                 <div className="basis-full">
                                     <div className="font-semibold text-2xl">Kebiasaan (Kegemaran)</div>
                                     <div className="mt-4 text-justify md:w-3/4">
-                                        <p>Bersama mbah Daman, biasanya mbah Dasih mendengarkan karawitan (klenengan) pada sore hari. Di waktu luang biasanya mbah Dasih merajut, membatik, menanam bunga dan empon-empon di pekarangan rumah Cethok.</p>
-                                        <p>Selain itu, mbah juga sangat gemar membuat kue mendut dan lapis.</p>
+                                        <p>Bersama Eyang Daman, biasanya Eyang Dasih mendengarkan karawitan (klenengan) pada sore hari. Di waktu luang biasanya Eyang Dasih merajut, membatik, menanam bunga dan empon-empon di pekarangan rumah Cethok.</p>
+                                        <p>Selain itu, Eyang juga sangat gemar membuat kue mendut dan lapis.</p>
                                     </div>
                                 </div>
                                 <div className="basis-full">
                                     <div className="font-semibold text-2xl">Perilaku (Watak)</div>
                                     <div className="mt-4 text-justify md:w-3/4">
-                                        <p>Beliau merupakan pribadi yang lemah lembut, sedikit pendiam, selalu santun dan halus dalam bertutur kata. Meski sedikit pendiam, namun mbah selalu memberi nasehat kebaikan untuk anak cucunya.</p>
-                                        <p>Selain itu mbah Dasih sangat gigih dan teguh pendirian.</p>
+                                        <p>Beliau merupakan pribadi yang lemah lembut, sedikit pendiam, selalu santun dan halus dalam bertutur kata. Meski sedikit pendiam, namun Eyang selalu memberi nasehat kebaikan untuk anak cucunya.</p>
+                                        <p>Selain itu Eyang Dasih sangat gigih dan teguh pendirian.</p>
                                     </div>
                                 </div>
                                 <div className="basis-full">
