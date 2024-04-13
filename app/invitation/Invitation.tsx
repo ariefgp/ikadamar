@@ -2,10 +2,10 @@
 
 import React from 'react';
 import Link from 'next/link';
-import Hero from '../main/hero';
-import Footer from '../main/footer';
+import Hero from '../components/hero/Hero';
+import Footer from '../components/footer/Footer';
 import Countdown from '../components/countdown/Countdown';
-import People from '../people/page';
+import People from '../people/People';
 
 const Invitation = () => {
   return (

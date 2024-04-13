@@ -1,9 +1,9 @@
 'use client'
 
 import React from 'react';
-import Hero from './hero';
-import Footer from './footer';
-import People from '../people/page';
+import Hero from '../components/hero/Hero';
+import Footer from '../components/footer/Footer';
+import People from '../people/People';
 
 const Homepage = () => {
   return (

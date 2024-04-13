@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { faLocationDot, faPhone, faHouse, faGraduationCap, faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Modal from "../modal/page";
+import Modal from "../components/modal/Modal";
 import { useState } from 'react';
 
 const People = ({ name, address, phone, image }: any) => {
