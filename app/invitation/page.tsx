@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import Hero from '../main/hero';
 import Footer from '../main/footer';
-import Countdown from '../countdown/page';
+import Countdown from '../components/countdown/Countdown';
 import People from '../people/page';
 
 const Invitation = () => {

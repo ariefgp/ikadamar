@@ -1,10 +1,8 @@
 'use client'
 
 import React from 'react';
-import Link from 'next/link';
-import Hero from '../main/hero';
-import Footer from '../main/footer';
-import Countdown from '../countdown/page';
+import Hero from './hero';
+import Footer from './footer';
 import People from '../people/page';
 
 const Homepage = () => {
