@@ -16,16 +16,18 @@ const People = ({ person }: PeopleProps) => {
     return (
         <>
             <div className="w-60 md:w-44 flex flex-col shadow-xl rounded-xl m-16 relative bg-white" onClick={() => setIsOpen(true)}>
-                <div className="absolute top-[-30px] left-[-30px] z-10 w-44">
+                <div className="absolute top-[-30px] left-[-30px] w-44">
                     <Image
                         src={person.image}
                         alt={person.name}
                         height={400}
                         width={1200}
-                        className='rounded-xl'
+                        // fill={true}
+                        style={{objectFit: "cover"}}
+                        className='rounded-xl h-40'
                     />
                 </div>
-                <div className="basis-full p-3 mt-24 text-left antialiased">
+                <div className="basis-full p-3 mt-32 text-left antialiased">
                     <div className="flex flex-col gap-2">
                         <div className="basis-full font-semibold">{person.name}</div>
                         <div><hr /></div>
@@ -46,14 +48,16 @@ const People = ({ person }: PeopleProps) => {
                 </div>
             </div>
             <Modal isOpen={isOpen} closeModal={() => setIsOpen(false)}>
-                <div className="flex flex-row gap-6">
+                <div className="flex flex-row gap-6 min-h-40">
                     <div className="basis-1/2">
                     <Image
                             src={person.image}
                             alt={person.name}
                             height="400"
                             width="1200"
-                            className='rounded-xl'
+                            // fill={true}
+                            style={{objectFit: "cover"}}
+                            className='rounded-xl h-40'
                         />
                     </div>
                     <div className="basis-1/2">
@@ -69,25 +73,25 @@ const People = ({ person }: PeopleProps) => {
                             <div className="basis-full">
                                 <div className="flex flex-row gap-4">
                                     <div><FontAwesomeIcon icon={faPhone} style={{ color: '#8EB1E5' }} /></div>
-                                    <div className="text-xs">081234567889</div>
+                                    <div className="text-xs">{person.phone}</div>
                                 </div>
                             </div>
                             <div className="basis-full">
                                 <div className="flex flex-row gap-4">
                                     <div><FontAwesomeIcon icon={faHouse} style={{ color: '#8EB1E5' }} /></div>
-                                    <div className="text-xs">RT 3 RW 1 Sumberrejo Wonoayi, Sidoarjo, Jawa Timur.</div>
+                                    <div className="text-xs">{person.address}</div>
                                 </div>
                             </div>
                             <div className="basis-full">
                                 <div className="flex flex-row gap-4">
                                     <div><FontAwesomeIcon icon={faGraduationCap} style={{ color: '#8EB1E5' }} /></div>
-                                    <div className="text-xs">S1 Kedokteran</div>
+                                    <div className="text-xs">{person.education}</div>
                                 </div>
                             </div>
                             <div className="basis-full">
                                 <div className="flex flex-row gap-4">
                                     <div><FontAwesomeIcon icon={faBriefcase} style={{ color: '#8EB1E5' }} /></div>
-                                    <div className="text-xs">RS Anwar Medika, Krian</div>
+                                    <div className="text-xs">{person.work}</div>
                                 </div>
                             </div>
                         </div>

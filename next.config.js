@@ -13,6 +13,12 @@ const nextConfig = {
 				port: '',
 				pathname: '/free-photo/**',
 			  },
+			  {
+				protocol: 'https',
+				hostname: 'drive.google.com',
+				port: '',
+				pathname: '/**',
+			  },
 			],
 		  },
 };

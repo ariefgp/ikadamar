@@ -1,62 +1,415 @@
 [
 	{
 		"name": "Dodit Kurniawan",
-		"image": "https://img.freepik.com/free-photo/portrait-happy-asian-woman-smiling-posing-confident-cross-arms-chest-standing-against-studio-background_1258-88983.jpg",
-		"birth_date": "Trenggalek",
-		"birth_place": "5 November 1977",
-		"phone": "081234567889",
-		"address": "RT 3 RW 1 Sumberrejo Wonoayi, Sidoarjo, Jawa Timur.",
-		"education": "S1 Kedokteran",
-		"work": "RS Anwar Medika, Krian"
+		"birth_date": "25 November 1977",
+		"address": "Desa Sumberejo RT 03 RW 01 Wonoayu Sidoarjo ",
+		"phone": "082139757929",
+		"work": "Dokter, RSU Anwar Medika Sidoarjo",
+		"image": "https://drive.google.com/uc?export=download&id=1U17qfgZVmag814DRVE8mkWO0FJO-XjCN",
+		"education": "-"
 	},
 	{
-		"name": "Dodit Kurniawan 2",
-		"image": "https://img.freepik.com/free-photo/portrait-happy-asian-woman-smiling-posing-confident-cross-arms-chest-standing-against-studio-background_1258-88983.jpg",
-		"birth_date": "Trenggalek",
-		"birth_place": "5 November 1977",
-		"phone": "081234567889",
-		"address": "RT 3 RW 1 Sumberrejo Wonoayi, Sidoarjo, Jawa Timur.",
-		"education": "S1 Kedokteran",
-		"work": "RS Anwar Medika, Krian"
+		"name": "Yudityarini Priyanto",
+		"birth_date": "10 May 1980",
+		"address": "Galaxi bumi permai blok J3 no.9 Surabaya",
+		"phone": "08123042714",
+		"work": "Surabaya",
+		"image": "https://drive.google.com/uc?export=download&id=16B_xFa_EwwYqU50fTLFt8oCySyof-iGi",
+		"education": "-"
 	},
 	{
-		"name": "Dodit Kurniawan 3",
-		"image": "https://img.freepik.com/free-photo/portrait-happy-asian-woman-smiling-posing-confident-cross-arms-chest-standing-against-studio-background_1258-88983.jpg",
-		"birth_date": "Trenggalek",
-		"birth_place": "5 November 1977",
-		"phone": "081234567889",
-		"address": "RT 3 RW 1 Sumberrejo Wonoayi, Sidoarjo, Jawa Timur.",
-		"education": "S1 Kedokteran",
-		"work": "RS Anwar Medika, Krian"
+		"name": "Carolus Tri Bagus Yunianto",
+		"birth_date": "9 June 1980",
+		"address": "Jl. Kebon Jeruk 2/16 Malang",
+		"phone": "081334990980",
+		"work": "Karyawan Swasta\nJl. Gatot Subroto 79 Malang",
+		"image": "https://drive.google.com/uc?export=download&id=1zMEHTwgnD01CpDoAN0U541FrehszBPB7",
+		"education": "-"
 	},
 	{
-		"name": "Dodit Kurniawan 4",
-		"image": "https://img.freepik.com/free-photo/portrait-happy-asian-woman-smiling-posing-confident-cross-arms-chest-standing-against-studio-background_1258-88983.jpg",
-		"birth_date": "Trenggalek",
-		"birth_place": "5 November 1977",
-		"phone": "081234567889",
-		"address": "RT 3 RW 1 Sumberrejo Wonoayi, Sidoarjo, Jawa Timur.",
-		"education": "S1 Kedokteran",
-		"work": "RS Anwar Medika, Krian"
+		"name": "Eko Budi Sulistyono",
+		"birth_date": "24 April 1967",
+		"address": "RT 5 RW 2 Desa Nglongsor Kec. Tugu Kab. Trenggalek ",
+		"phone": "082244899911",
+		"work": "GURU SMP / SMP NEGERI 2 TUGU",
+		"image": "https://drive.google.com/uc?export=download&id=1zyV7Id1bVNT5yed6PTPznynVlkstuD2p",
+		"education": "-"
 	},
 	{
-		"name": "Dodit Kurniawan 5",
-		"image": "https://img.freepik.com/free-photo/portrait-happy-asian-woman-smiling-posing-confident-cross-arms-chest-standing-against-studio-background_1258-88983.jpg",
-		"birth_date": "Trenggalek",
-		"birth_place": "5 November 1977",
-		"phone": "081234567889",
-		"address": "RT 3 RW 1 Sumberrejo Wonoayi, Sidoarjo, Jawa Timur.",
-		"education": "S1 Kedokteran",
-		"work": "RS Anwar Medika, Krian"
+		"name": "Tetty Dinayanti",
+		"birth_date": "4 August 1970",
+		"address": "Kelutan Rw 1 Rt 2 ",
+		"phone": "081390205958",
+		"work": "Wiraswasta",
+		"image": "https://drive.google.com/uc?export=download&id=1J45fYaEEHEzMGWNBv_RVgZSlSdIJJuqw",
+		"education": "-"
 	},
 	{
-		"name": "Dodit Kurniawan 6",
-		"image": "https://img.freepik.com/free-photo/portrait-happy-asian-woman-smiling-posing-confident-cross-arms-chest-standing-against-studio-background_1258-88983.jpg",
-		"birth_date": "Trenggalek",
-		"birth_place": "5 November 1977",
-		"phone": "081234567889",
-		"address": "RT 3 RW 1 Sumberrejo Wonoayi, Sidoarjo, Jawa Timur.",
-		"education": "S1 Kedokteran",
-		"work": "RS Anwar Medika, Krian"
+		"name": "Marjianto",
+		"birth_date": "18 January 1972",
+		"address": "Kelutan Rw 1 Rt 2 Kelutan",
+		"phone": "08125210945",
+		"work": "PNS",
+		"image": "https://drive.google.com/uc?export=download&id=1b0f9Ckj4diiSDxLDZFDpPQFa_lXzypOv",
+		"education": "-"
+	},
+	{
+		"name": "Eduardus Bagus Erlanggono",
+		"birth_date": "6 September 1975",
+		"address": "Jl. Tapaksiring III/15 Malang",
+		"phone": "085855371255",
+		"work": "Swasta",
+		"image": "https://drive.google.com/uc?export=download&id=1YW1iY07LsJ54DxqVfZ1hbtR1_1v2-4pz",
+		"education": "-"
+	},
+	{
+		"name": "Mianto Nugroho Agung",
+		"birth_date": "20 May 1966",
+		"address": "Jl.Kemiri Barat no 39 RT 01 RW 09 Salatiga ",
+		"phone": "083877271418",
+		"work": "Yayasan Bina Dharma & Dosen, Salatiga & Ungaran",
+		"image": "https://drive.google.com/uc?export=download&id=1Rbg8z-h5UeLEgwH02CjpbBTL5ukLJw7t",
+		"education": "-"
+	},
+	{
+		"name": "Landung Ing Puji Nugroho",
+		"birth_date": "7 October 2000",
+		"address": "Jln. Kemiri Barat 39, RT 01, RW 09, Kel. Salatiga, Kec. Sidorejo, Kota Salatiga, Jawa Tengah",
+		"phone": "089644416900",
+		"work": "Pegawai Swasta",
+		"image": "https://drive.google.com/uc?export=download&id=1eJdXXKiNMv3gjbi48TK9MTP72CwlRUmL",
+		"education": "-"
+	},
+	{
+		"name": "Adiwinarno",
+		"birth_date": "23 July 1973",
+		"address": "Desa Mergosari RT 06/RW 01 Kecamatan Tarik Kabupaten Sidoarjo",
+		"phone": "089697958938",
+		"work": "Pegawai Rumah Sakit Toeloengredjo Pare",
+		"image": "https://drive.google.com/uc?export=download&id=1CiFe2Atvytak3_WeWSA4mQC1Cw-6f7pC",
+		"education": "-"
+	},
+	{
+		"name": "Andre Setyawan",
+		"birth_date": "10 July 1981",
+		"address": "Semolowaru Selatan VI no. 14 Surabaya",
+		"phone": "081252020207",
+		"work": "Capital Market Lawyer and The Owner of  ASET Law Firm, Gedung Voza Tower Lt. 11 Unit G, Jl. HR Mohammad no. 31 Surabaya",
+		"image": "https://drive.google.com/uc?export=download&id=1Gz6ZVR1BvJOLTLqVIsa57czIskpJKGH9",
+		"education": "-"
+	},
+	{
+		"name": "Budi Satriyo",
+		"birth_date": "5 January 1972",
+		"address": "Ijen nirwana cluster green leaf d3 no2 malang",
+		"phone": "081331405899",
+		"work": "PNS, RSSA Malang",
+		"image": "https://drive.google.com/uc?export=download&id=1z5AmEroh64T7eXr4IT99Z2SbYTOLluES",
+		"education": "-"
+	},
+	{
+		"name": "Dwi Hari Sutopo (Alm)",
+		"birth_date": "19 October 1966",
+		"address": "Dsn. Cetok RT 19 RW 05 Karangan, Trenggalek",
+		"phone": "081336908032",
+		"work": "Swasta",
+		"image": "https://drive.google.com/uc?export=download&id=1mMqkjVzuDJonG-8CLj7iFaOeFMHCBSRq",
+		"education": "-"
+	},
+	{
+		"name": "Dr. Danny Nugroho",
+		"birth_date": "26 April 1976",
+		"address": "Perumahan Taman Jenggala Jl. Jenderal Sudirman VI no.1 RT 23 RW 06 Desa Larangan Kecamatan Candi Kabupaten Sidoarjo 61271",
+		"phone": "082232183916",
+		"work": "ASN UPT Puskesmas Kedungsolo Jl. Raya Kedungsolo no.1 Desa Kedungsolo Kecamatan Porong Sidoarjo",
+		"image": "https://drive.google.com/uc?export=download&id=158NyHoYyEY2TTV6lDBtHVmY5oOcujuA4",
+		"education": "-"
+	},
+	{
+		"name": "Totok Haryanto",
+		"birth_date": "23 April 1975",
+		"address": "Tanjungpinang",
+		"phone": "085272512475",
+		"work": "PNS Analis Kepegawaian Ahli Madya",
+		"image": "https://drive.google.com/uc?export=download&id=1zVOgjew1WVEO6YoUIFjQrD4V_46bSyoB",
+		"education": "-"
+	},
+	{
+		"name": "Edi Susanto",
+		"birth_date": "17 February 1972",
+		"address": "Rt 21 RW 04 ds Kedungsigit Karangan Trenggalek",
+		"phone": "081358801144",
+		"work": "Swasta",
+		"image": "https://drive.google.com/uc?export=download&id=1kHadbN5vG5VkPxo7J4LP-gZ2-abS8f0c",
+		"education": "-"
+	},
+	{
+		"name": "Dhurotul Layli Masruroh",
+		"birth_date": "10 August 1981",
+		"address": "Desa Sumberejo RT 03 RW 01 Wonoayu Sidoarjo",
+		"phone": "082231144164",
+		"work": "ASN, Puskesmas Sukodono Sidoarjo",
+		"image": "https://drive.google.com/uc?export=download&id=1xU7p_3qOiRpcURTphDwyUfGGPQ0pTGdH",
+		"education": "-"
+	},
+	{
+		"name": "Mochamad Yusuf",
+		"birth_date": "29 March 1957",
+		"address": "Galaxi bumi permai J3 no.9",
+		"phone": "08112458999",
+		"work": "Swasta",
+		"image": "https://drive.google.com/uc?export=download&id=1NS33S13ccurs35yc23hdJiRMjcPBYGes",
+		"education": "-"
+	},
+	{
+		"name": "Dina Sisilia Ratih Palupi",
+		"birth_date": "29 January 1987",
+		"address": "Jl. Kebon Jeruk 2/16 Malang",
+		"phone": "082199350405",
+		"work": "Guru\nJl. Malenggang 12-14 Malang",
+		"image": "https://drive.google.com/uc?export=download&id=1uzoOmLw9kUizHpXHDXvNtMCU5CVKREzU",
+		"education": "-"
+	},
+	{
+		"name": "Kurniyanti Puji Handini",
+		"birth_date": "28 October 1970",
+		"address": "RT 5 RW 2 DESA NGLONGSOR KEC. TUGU KAB. TRENGGALEK",
+		"phone": "085236220144",
+		"work": "KS SMA / SMA NEGERI 1 TUGU",
+		"image": "https://drive.google.com/uc?export=download&id=1aW5fLgnVE2gOmsc313rry_ygbngXnfhE",
+		"education": "-"
+	},
+	{
+		"name": "Yunita",
+		"birth_date": "30 June 1976",
+		"address": "Tanjungpinang",
+		"phone": "08125764928",
+		"work": "PNS Guru SMAN 1 Tanjungpinang",
+		"image": "https://drive.google.com/uc?export=download&id=16_I2BDi8nlky7FBbNrWji0F-6GJK_R1l",
+		"education": "-"
+	},
+	{
+		"name": "Benedicta Dwi Kurniawati",
+		"birth_date": "9 October 1978",
+		"address": "Jl. Tapaksiring III/15 Malang",
+		"phone": "08155522279",
+		"work": "PNS",
+		"image": "https://drive.google.com/uc?export=download&id=1LmuNRHc_Em6k3TAlDmUcM7sqZKyLGK-q",
+		"education": "-"
+	},
+	{
+		"name": "Tri Puji Rinaningsih",
+		"birth_date": "29 May 1969",
+		"address": "Jl.Kemiri Barat no 39 RT 01 RW 09 Salatiga ",
+		"phone": "083838402583",
+		"work": "Mengurus Rumah Tangga ",
+		"image": "https://drive.google.com/uc?export=download&id=1FnJpQYLZ2E5YhZ8617kFqCpLleUWLa44",
+		"education": "-"
+	},
+	{
+		"name": "Ulfa Widiana Sari",
+		"birth_date": "20 August 2000",
+		"address": "Jln. Kemiri Barat 39, RT 01, RW 09, Kel. Salatiga, Kec. Sidorejo, Kota Salatiga, Jawa Tengah",
+		"phone": "081477048447",
+		"work": "Pegawai Swasta",
+		"image": "https://drive.google.com/uc?export=download&id=1MTBlJ4th7aOjola-SN9zmbGl590l7yuG",
+		"education": "-"
+	},
+	{
+		"name": "Nur Wahyani",
+		"birth_date": "14 January 1976",
+		"address": "Desa Mergosari RT 06/ RW 01 Kecamatan Tarik Kabupaten Sidoarjo",
+		"phone": "089676916585",
+		"work": "Wiraswasta",
+		"image": "https://drive.google.com/uc?export=download&id=1mvJgKQpy2nEdFgao-YUJ-Iqqfw1X3Awo",
+		"education": "-"
+	},
+	{
+		"name": "Filia Savitri",
+		"birth_date": "16 June 1981",
+		"address": "Semolowaru Selatan VI no. 14 Surabaya",
+		"phone": "08113344529",
+		"work": "Finance Analyst, ASET Law Firm",
+		"image": "https://drive.google.com/uc?export=download&id=1A4eN-5Fe9xt3ohF-GIxJq7UWwUgAmpWC",
+		"education": "-"
+	},
+	{
+		"name": "Diana Ria Santi",
+		"birth_date": "4 March 1975",
+		"address": "Ijen nirwana malang",
+		"phone": "082141311707",
+		"work": "PNS, pemprov Jatim",
+		"image": "https://drive.google.com/uc?export=download&id=1fQ73IpivpKusXaCSITf24dOHP7gqxtpZ",
+		"education": "-"
+	},
+	{
+		"name": "Lidia Sus Kutmiati",
+		"birth_date": "16 January 1977",
+		"address": "Dsn Cetok RT 19 RW 05 Karangan",
+		"phone": "081336908032",
+		"work": "Pendeta. GKA HOSANA TRENGGALEK, Jl Dr. Soetomo 39 Trenggalek",
+		"image": "https://drive.google.com/uc?export=download&id=1r8uFFnKe8BPFvmS0foEGjRQRxdWXzRNe",
+		"education": "-"
+	},
+	{
+		"name": "Dr. Dewi Retnoningsih, Sp.Mk(K)",
+		"birth_date": "29 March 1977",
+		"address": "Perumahan Taman Jenggala Jl. Jenderal Sudirman VI no.1 RT 23 RW 06 Desa Larangan Kecamatan Candi Sidoarjo 61271",
+		"phone": "081334118988",
+		"work": "Dosen FK UB & RSI Siti Hajar Sidoarjo",
+		"image": "https://drive.google.com/uc?export=download&id=10qxFIUHHfbLnwJIYckwufwKRH0zmYTXq",
+		"education": "-"
+	},
+	{
+		"name": "Khaerun Nisa",
+		"birth_date": "7 May 1975",
+		"address": "Rt  21 RW 04 ds Kedungsigit Karangan Trenggalek",
+		"phone": "085850653498",
+		"work": "Guru SMKN 2 Trenggalek",
+		"image": "https://drive.google.com/uc?export=download&id=1ne8lGT7s5Ex7oMeIhKOpu5F6nJ7Iiru3",
+		"education": "-"
+	},
+	{
+		"name": "Naufal Fikri Fadhlurrahman",
+		"birth_date": "5 December 2006",
+		"address": "Desa Sumberejo RT 03 RW 01 Wonoayu Sidoarjo",
+		"work": "Pelajar, MAN 2 Kota Malang",
+		"image": "https://drive.google.com/uc?export=download&id=1185kJNGQoxjDlySempgSFpvs4hqGZMj3",
+		"education": "-"
+	},
+	{
+		"name": "Feditya Aisharahmi",
+		"birth_date": "13 March 2006",
+		"address": "Galaxi bumi permai J3 no.9",
+		"phone": "-",
+		"work": "-",
+		"image": "https://drive.google.com/uc?export=download&id=1r-QPHuX5Q7XhfTNdJ2wkJjT75O4y5aVw",
+		"education": "-"
+	},
+	{
+		"name": "Daniello Bintang Estungkara Putra Charis",
+		"birth_date": "20 March 2013",
+		"address": "Jl. Kebon Jeruk 2/16 Malang",
+		"phone": "-",
+		"work": "-",
+		"image": "https://drive.google.com/uc?export=download&id=1BCQnS4px_zHDkt0ZQnjtd8ojD7tnQAAV",
+		"education": "-"
+	},
+	{
+		"name": "Bestian Ovilia Andini",
+		"birth_date": "11 July 1996",
+		"address": "RT 5 RW 2 DESA NGLONGSOR KEC. TUGU KAB. TRENGGALEK",
+		"phone": "-",
+		"work": "MAHASISWA",
+		"image": "https://drive.google.com/uc?export=download&id=1nYoxHuxOW1GlawPb63VniCISekHsxCJj",
+		"education": "-"
+	},
+	{
+		"name": "Aurelia Callysta Putri Erlanggono",
+		"birth_date": "22 April 2012",
+		"address": "Jl. Tapaksiring III/15 Malang",
+		"phone": "-",
+		"work": "Pelajar",
+		"image": "https://drive.google.com/uc?export=download&id=1N6wRWkBiHbCr7obW0w-4rrTCuhJW7AKw",
+		"education": "-"
+	},
+	{
+		"name": "Matahari Pujian Agung",
+		"birth_date": "14 March 1997",
+		"address": "Jl.Kemiri Barat no 39 RT 01 RW 09 Salatiga ",
+		"phone": "-",
+		"work": "Karyawan Swasta, Bekasi ",
+		"image": "https://drive.google.com/uc?export=download&id=1zIcMDPlFNOC7DaGhhsWVxbbV_-272Dt2",
+		"education": "-"
+	},
+	{
+		"name": "Muhammad Hanif Al Hazmi",
+		"birth_date": "13 September 2003",
+		"address": "Desa Mergosari RT 06/ RW 01 Kecamatan Tarik Kabupaten Sidoarjo",
+		"phone": "-",
+		"work": "Mahasiswa",
+		"image": "https://drive.google.com/uc?export=download&id=1_ItZhtJjiyFPB4palAuJlweB-uQ0gjVu",
+		"education": "-"
+	},
+	{
+		"name": "Amanda Giftynova",
+		"birth_date": "19 November 2013",
+		"address": "Semolowaru Selatan VI no. 14 Surabaya",
+		"phone": "-",
+		"work": "Student",
+		"image": "https://drive.google.com/uc?export=download&id=1on4PQC1t3G0fX4st-zJavcp02zzLPb-X",
+		"education": "-"
+	},
+	{
+		"name": "Reysha Gita Shafira",
+		"birth_date": "29 November 2007",
+		"address": "Ijen nirwana malang",
+		"phone": "-",
+		"work": "Pelajar",
+		"image": "https://drive.google.com/uc?export=download&id=1WEfbEwYvyF4gMDz-F_EchoDfdEAIeSqr",
+		"education": "-"
+	},
+	{
+		"name": "Mario Satria Pratama",
+		"birth_date": "24 December 2004",
+		"address": "Perumahan Taman Jenggala",
+		"phone": "-",
+		"work": "Siswa kelas XII SMA Negeri 3 Sidoarjo",
+		"image": "https://drive.google.com/uc?export=download&id=1ioINQIk2lc4CSUwxyfdxiQER-QR3MfJ1",
+		"education": "-"
+	},
+	{
+		"name": "Janitra Nasywa Shayna",
+		"birth_date": "26 August 2008",
+		"address": "Rt 21 Rw 04 ds Kedungsigit Karangan Trenggalek",
+		"phone": "-",
+		"work": "Pelajar",
+		"image": "https://drive.google.com/uc?export=download&id=1tdZvHWm5JiWTGWNKNGVHuemtPfRkQXtE",
+		"education": "-"
+	},
+	{
+		"name": "Ahmad Zharif Dhiyaulhaq",
+		"birth_date": "21 May 2008",
+		"address": "Desa Sumberejo RT 03 RW 01 Wonoayu Sidoarjo",
+		"phone": "-",
+		"work": "Pelajar, SMPIT Darul Fikri Sidoarjo",
+		"image": "https://drive.google.com/uc?export=download&id=1WgsftTwCK3FnPUohtUijAWaHIkPGQCs4",
+		"education": "-"
+	},
+	{
+		"name": "Arfan Hashif Azzamy",
+		"birth_date": "4 December 2012",
+		"address": "Desa Sumberejo RT 03 RW 01 Wonoayu Sidoarjo",
+		"phone": "-",
+		"work": "Pelajar, SDIT Nurul Fikri Sidoarjo",
+		"image": "https://drive.google.com/uc?export=download&id=1BQ6Vw7hU0w8CP9ml7la2uuoJ5XuLpjX3",
+		"education": "-"
+	},
+	{
+		"name": "Ahmad Hakim",
+		"birth_date": "15 October 1980",
+		"address": "Urip Sumoharjo No.99 Kel.Kepatihan Kec.Tulungagung Kab.Tulungagung",
+		"phone": "-",
+		"work": "ASN Kabupaten Tulungagung",
+		"image": "https://drive.google.com/uc?export=download&id=1KD_UzgSEoDV7dzhL2JnzD9ISg0LVH51Z",
+		"education": "-"
+	},
+	{
+		"name": "Dyah Laksmita Dewi",
+		"birth_date": "12 August 1981",
+		"address": "Urip Sumoharjo No.99 Kel.Kepatihan Kec.Tulungagung kab.Tulungagung",
+		"phone": "-",
+		"work": "ASN Kabupaten Tulungagung",
+		"image": "https://drive.google.com/uc?export=download&id=1FVrnv-4ZvhOORtM6KgS5FyW85HlUa3Fz",
+		"education": "-"
+	},
+	{
+		"name": "Elvina Ayu Nasma Lathifa",
+		"birth_date": "4 December 2006",
+		"address": "Urip Sumoharjo No.99 Kel.Kepatihan Kec.Tulungagung Kab.Tulungagung",
+		"phone": "-",
+		"work": "Pelajar(SMA)",
+		"image": "https://drive.google.com/uc?export=download&id=1apnf8ZV11_ZAB-mbGVZQQfEnB6-hXtAU",
+		"education": "-"
 	}
 ]
