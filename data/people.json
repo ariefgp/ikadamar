@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Dodit Kurniawan",
+		"image": "ttps://img.freepik.com/free-photo/portrait-happy-asian-woman-smiling-posing-confident-cross-arms-chest-standing-against-studio-background_1258-88983.jpg",
+		"birth_date": "Trenggalek",
+		"birth_place": "5 November 1977",
+		"phone": "081234567889",
+		"address": "RT 3 RW 1 Sumberrejo Wonoayi, Sidoarjo, Jawa Timur.",
+		"education": "S1 Kedokteran",
+		"work": "RS Anwar Medika, Krian"
+	},
+	{
+		"name": "Dodit Kurniawan 2",
+		"image": "ttps://img.freepik.com/free-photo/portrait-happy-asian-woman-smiling-posing-confident-cross-arms-chest-standing-against-studio-background_1258-88983.jpg",
+		"birth_date": "Trenggalek",
+		"birth_place": "5 November 1977",
+		"phone": "081234567889",
+		"address": "RT 3 RW 1 Sumberrejo Wonoayi, Sidoarjo, Jawa Timur.",
+		"education": "S1 Kedokteran",
+		"work": "RS Anwar Medika, Krian"
+	},
+	{
+		"name": "Dodit Kurniawan 3",
+		"image": "ttps://img.freepik.com/free-photo/portrait-happy-asian-woman-smiling-posing-confident-cross-arms-chest-standing-against-studio-background_1258-88983.jpg",
+		"birth_date": "Trenggalek",
+		"birth_place": "5 November 1977",
+		"phone": "081234567889",
+		"address": "RT 3 RW 1 Sumberrejo Wonoayi, Sidoarjo, Jawa Timur.",
+		"education": "S1 Kedokteran",
+		"work": "RS Anwar Medika, Krian"
+	}
+]
