@@ -11,9 +11,6 @@ const Invitation = () => {
   return (
     <div className="flex flex-col text-center bg-[#f8f9fa] text-sm md:text-base">
         <Hero />
-        <div>
-          <People />
-        </div>
         <div className="basis-full px-5 md:px-20 lg:px-48">
             <div className="pt-12 md:pt-20 lg:pt-32">
                 <div>Kami mengundang</div>

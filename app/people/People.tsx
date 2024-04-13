@@ -4,7 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Modal from "../components/modal/Modal";
 import { useState } from 'react';
 
-const People = ({ name, address, phone, image }: any) => {
+interface PeopleProps {
+    name: String;
+    address: String;
+    phone: String;
+    image: String;
+}
+
+const People = ({ name, address, phone, image }: PeopleProps) => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <>
