@@ -1,11 +1,11 @@
-import { promises as fs } from 'fs';
+import { getData } from '@/lib/getData';
 import Hero from './components/hero/Hero';
 import Footer from './components/footer/Footer';
 import People from './people/People';
 
 const Home = async () => {
-  const file = await fs.readFile(process.cwd() + '/data/people.json', 'utf8');
-  const people = JSON.parse(file);
+  const people = await getData()
+
   return (
     <div className="flex flex-col text-center bg-[#f8f9fa] text-sm md:text-base">
       <Hero />

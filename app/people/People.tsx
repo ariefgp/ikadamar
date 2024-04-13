@@ -58,7 +58,7 @@ const People = ({ person }: PeopleProps) => {
                     </div>
                     <div className="basis-1/2">
                         <div className="flex flex-col gap-2">
-                            <div className="basis-full font-semibold"> Dian Sastrowardoyo</div>
+                            <div className="basis-full font-semibold"> {person.name} </div>
                             <div><hr /></div>
                             <div className="basis-full">
                                 <div className="flex flex-row gap-4 items-center ">
