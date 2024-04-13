@@ -15,7 +15,7 @@ const People = ({ person }: PeopleProps) => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <>
-            <div className="w-44 flex flex-col shadow-xl rounded-xl m-16 relative" onClick={() => setIsOpen(true)}>
+            <div className="w-60 md:w-44 flex flex-col shadow-xl rounded-xl m-16 relative bg-white" onClick={() => setIsOpen(true)}>
                 <div className="absolute top-[-30px] left-[-30px] z-10 w-44">
                     <Image
                         src={person.image}

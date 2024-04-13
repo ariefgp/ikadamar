@@ -3,9 +3,10 @@ import Hero from './components/hero/Hero';
 import Footer from './components/footer/Footer';
 import People from './people/People';
 import Navbar from './components/navbar/Navbar';
+import Link from 'next/link';
 
 const Home = async () => {
-  const people = await getData()
+  const people = await getData();
 
   return (
     <>
@@ -16,6 +17,9 @@ const Home = async () => {
         <div className="mb-12 font-semibold text-[#5F5B5B] text-2xl">Anggota Keluarga</div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 sm:gap-2 lg:gap-4">
           {people?.slice(0, 4).map((person: any, index: any) => <People key={index} person={person} />)}
+        </div>
+        <div>
+        <Link href="/keluarga" className="py-2 px-6 bg-[#8EB1E6] text-white shadow-xl m-5 rounded-md">Lihat Semua Keluarga</Link>
         </div>
       </div>
       <Footer />
