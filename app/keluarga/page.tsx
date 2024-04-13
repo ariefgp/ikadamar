@@ -12,7 +12,7 @@ const Keluarga = async () => {
                 <div className="basis-full min-h-[300px] md:pr-44">
                     <div className="w-full bg-[#DDE9FB] min-h-[300px]"></div>
                 </div>
-                <div className="basis-full mt-20 px-12 lg:px-none md:pl-12 -mt-60 md:-mt-60 relative">
+                <div className="basis-full px-12 lg:px-none md:pl-12 -mt-60 md:-mt-60 relative">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 sm:gap-2 lg:gap-4">
                         {people?.map((person: any, index: any) => <People key={index} person={person} />)}
                     </div>
