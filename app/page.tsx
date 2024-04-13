@@ -1,10 +1,31 @@
-import React from 'react'
-import Invitation from './invitation/page'
+import { getData } from '@/lib/getData';
+import Hero from './components/hero/Hero';
+import Footer from './components/footer/Footer';
+import People from './people/People';
+import Navbar from './components/navbar/Navbar';
+import Link from 'next/link';
 
-function Home() {
+const Home = async () => {
+  const people = await getData();
+
   return (
-    <Invitation />
+    <>
+    <Navbar bgColor="#DDE9FB"/>
+    <div className="flex flex-col text-center bg-[#f8f9fa] text-sm md:text-base">
+      <Hero />
+      <div className='basis-full px-5 md:px-20 mt-20'>
+        <div className="mb-12 font-semibold text-[#5F5B5B] text-2xl">Anggota Keluarga</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 sm:gap-2 lg:gap-4">
+          {people?.slice(0, 4).map((person: any, index: any) => <People key={index} person={person} />)}
+        </div>
+        <div>
+        <Link href="/keluarga" className="py-2 px-6 bg-[#8EB1E6] text-white shadow-xl m-5 rounded-md">Lihat Semua Keluarga</Link>
+        </div>
+      </div>
+      <Footer />
+    </div>
+    </>
   )
 }
 
-export default Home
+export default Home;

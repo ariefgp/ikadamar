@@ -4,11 +4,11 @@ import React from 'react'
 function Navbar(value: any) {
     return (
         <header className={`flex flex-row-reverse flex-wrap gap-8 lg:gap-16 py-10 px-20 lg:py-16 lg:px-48 font-semibold bg-[${value.bgColor}] text-[#383333]`}>
-            <div>
+            {/* <div>
                 <Link href="/#" className='hover:text-[#7791BA]'> Artikel </Link>
-            </div>
+            </div> */}
             <div>
-                <Link href="/#" className='hover:text-[#7791BA]'> Keluarga </Link>
+                <Link href="/keluarga" className='hover:text-[#7791BA]'> Keluarga </Link>
             </div>
             <div>
                 <Link href="/eyang-dasih" className='hover:text-[#7791BA]'> Eyang Dasih </Link>
@@ -40,4 +40,4 @@ function Navbar(value: any) {
     )
 }
 
-export default Navbar
+export default Navbar;

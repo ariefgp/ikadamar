@@ -1,4 +1,5 @@
-import Navbar from "../navbar";
+import Footer from "../components/footer/Footer";
+import Navbar from "../components/navbar/Navbar";
 import Image from "next/image";
 
 const EyangDaman = () => {
@@ -112,9 +113,7 @@ const EyangDaman = () => {
                     </div>
                 </div>
             </div>
-            <div className="basis-full text-center mt-20 py-3 md:py-5 bg-[#C7D1E1] text-white">
-                Copyright @codekarsa. 2024
-            </div>
+            <Footer />
         </>
     );
 }
