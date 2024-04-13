@@ -19,38 +19,38 @@ function Invitation() {
     });
 
     useEffect(() => {
-      setInterval(() => setNewTime(), 1000);
-    }, []);
-
-    const setNewTime = () => {
-      if (countdownDate) {
-        const currentTime = new Date().getTime();
-
-        const distanceToDate = countdownDate - currentTime;
-
-        let days: string | number = Math.floor(distanceToDate / (1000 * 60 * 60 * 24));
-        let hours: string | number = Math.floor(
-          (distanceToDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-        );
-        let minutes: string | number = Math.floor(
-          (distanceToDate % (1000 * 60 * 60)) / (1000 * 60)
-        );
-        let seconds: string | number = Math.floor((distanceToDate % (1000 * 60)) / 1000);
-
-        const numbersToAddZeroTo = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-        days = `${days}`;
-        if (numbersToAddZeroTo.includes(hours)) {
-          hours = `0${hours}`;
-        } else if (numbersToAddZeroTo.includes(minutes)) {
-          minutes = `0${minutes}`;
-        } else if (numbersToAddZeroTo.includes(seconds)) {
-          seconds = `0${seconds}`;
+      const setNewTime = () => {
+        if (countdownDate) {
+          const currentTime = new Date().getTime();
+  
+          const distanceToDate = countdownDate - currentTime;
+  
+          let days: string | number = Math.floor(distanceToDate / (1000 * 60 * 60 * 24));
+          let hours: string | number = Math.floor(
+            (distanceToDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          let minutes: string | number = Math.floor(
+            (distanceToDate % (1000 * 60 * 60)) / (1000 * 60)
+          );
+          let seconds: string | number = Math.floor((distanceToDate % (1000 * 60)) / 1000);
+  
+          const numbersToAddZeroTo = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  
+          days = `${days}`;
+          if (numbersToAddZeroTo.includes(hours)) {
+            hours = `0${hours}`;
+          } else if (numbersToAddZeroTo.includes(minutes)) {
+            minutes = `0${minutes}`;
+          } else if (numbersToAddZeroTo.includes(seconds)) {
+            seconds = `0${seconds}`;
+          }
+  
+          setState({ days: days, hours: hours as string, minutes: minutes as string, seconds: seconds as string });
         }
+      };
 
-        setState({ days: days, hours: hours as string, minutes: minutes as string, seconds: seconds as string });
-      }
-    };
+      setInterval(() => setNewTime(), 1000);
+    }, [countdownDate]);
 
     return (
       <div className="flex flex-row justify-center gap-5">

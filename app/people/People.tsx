@@ -63,7 +63,7 @@ const People = ({ person }: PeopleProps) => {
                             <div className="basis-full">
                                 <div className="flex flex-row gap-4 items-center ">
                                     <div className="flex items-center"><FontAwesomeIcon icon={faCalendar} style={{ color: '#8EB1E5' }} /></div>
-                                    <div className="text-xs flex items-center">{person.birth_place}, {person.birth_date}</div>
+                                    <div className="text-xs flex items-center">{person.birth_date}</div>
                                 </div>
                             </div>
                             <div className="basis-full">

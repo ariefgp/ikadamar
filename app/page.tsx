@@ -2,11 +2,14 @@ import { getData } from '@/lib/getData';
 import Hero from './components/hero/Hero';
 import Footer from './components/footer/Footer';
 import People from './people/People';
+import Navbar from './components/navbar/Navbar';
 
 const Home = async () => {
   const people = await getData()
 
   return (
+    <>
+    <Navbar bgColor="#DDE9FB"/>
     <div className="flex flex-col text-center bg-[#f8f9fa] text-sm md:text-base">
       <Hero />
       <div className='basis-full px-5 md:px-20 mt-20'>
@@ -17,6 +20,7 @@ const Home = async () => {
       </div>
       <Footer />
     </div>
+    </>
   )
 }
 
